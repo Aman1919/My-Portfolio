@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.44166cc0.css",
+    "main.js": "/My-Portfolio/static/js/main.78ccbd47.js",
+    "static/media/movieDetails.png": "/My-Portfolio/static/media/movieDetails.ca137eceaf6bf4678e73.png",
+    "static/media/aman.png": "/My-Portfolio/static/media/aman.c7380a3b05498845e13e.png",
+    "static/media/staticwebsites.png": "/My-Portfolio/static/media/staticwebsites.4db847a3043d59561e34.png",
+    "static/media/chessgame.png": "/My-Portfolio/static/media/chessgame.36c58a2a78488b30501b.png",
+    "static/media/tictactoe.png": "/My-Portfolio/static/media/tictactoe.06ccb88b9c10498de236.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.44166cc0.css.map": "/My-Portfolio/static/css/main.44166cc0.css.map",
+    "main.78ccbd47.js.map": "/My-Portfolio/static/js/main.78ccbd47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44166cc0.css",
+    "static/js/main.78ccbd47.js"
+  ]
+}
