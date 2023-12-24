@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  font-family: sans-serif;
+overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.text-shadow-pop-tl {
+font-size: min(2rem, 7vw);
+letter-spacing: 2px;	
+animation: text-shadow-pop-tl 1s ease-out both;
+}
+p{
+font-size: min(1rem, 3.8vw);
+}
+section,footer{
+margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+@keyframes text-shadow-pop-tl {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+    transform: translateX(0) translateY(0);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  100% {
+    text-shadow: -1px -1px #555555, -1px -1px #555555, -2px -2px #555555, -3px -3px #555555, -4px -4px #555555, -4px -4px #555555, -5px -5px #555555, -6px -6px #555555;
+    transform: translateX(8px) translateY(8px);
   }
 }
